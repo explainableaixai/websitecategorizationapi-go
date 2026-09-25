@@ -1,6 +1,6 @@
 # websitecategorizationapi-go
 
-Topic classification for web pages, from Go. Send an article URL or a domain to `Classify` and get back categories from the IAB content taxonomy with confidence scores. Publishers, ad servers and analytics pipelines use the answer for contextual targeting, brand safety and reporting. The service itself is documented at [website categorization for publishers and ad tech](https://www.websitecategorizationapi.com).
+Topic classification for web pages, from Go. Send an article URL or a domain to `Classify` and get back categories from the IAB content taxonomy with confidence scores. Publishers, ad servers and analytics pipelines use the answer for contextual targeting, brand safety and reporting. The service itself is documented in the [website classification API documentation](https://www.websitecategorizationapi.com/api-docs.php).
 
 ```bash
 go get github.com/explainableaixai/websitecategorizationapi-go
@@ -115,13 +115,13 @@ if errors.As(err, &apiErr) {
 
 ## Volume and cost
 
-Classify each article once, and again only when its text changes. Page views do not need new calls. Sites with large back catalogues can classify old articles in a slow background job, a few requests at a time. For very large domain lists where only site-level labels matter, [bulk URL categories without per-call pricing](https://www.urlcategorizationdatabase.com) are usually cheaper than calling the API for each domain.
+Classify each article once, and again only when its text changes. Page views do not need new calls. Sites with large back catalogues can classify old articles in a slow background job, a few requests at a time. For very large domain lists where only site-level labels matter, a [URL categorization database download](https://www.urlcategorizationdatabase.com/pricing.php) is usually cheaper than calling the API for each domain.
 
 ## Related data sets
 
-- A topic taxonomy files AI products under technology. For [AI tool domains sorted by what each tool does](https://www.aitoolsblocklist.com), use the dedicated register.
-- Security teams can [turn DNS exports into an AI tool inventory](https://www.shadowaitools.com) with the log-scanning service.
-- For allow and block decisions rather than topics, use [content filtering categories for firewalls](https://www.webfilteringdatabase.com).
+- A topic taxonomy files AI products under technology. Teams building [AI data loss prevention](https://www.aitoolsblocklist.com/ai-data-loss-prevention.php) need the dedicated register instead.
+- Security teams can [block shadow AI](https://www.shadowaitools.com/for-it-managers.php) once the log-scanning service has listed it.
+- For allow and block decisions rather than topics, use categories from [enterprise web filtering software](https://www.webfilteringdatabase.com/pricing.php).
 
 ## Testing
 
