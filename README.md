@@ -119,7 +119,7 @@ Classify each article once, and again only when its text changes. Page views do 
 
 ## Related data sets
 
-- A topic taxonomy files AI products under technology. Teams building [AI data loss prevention](https://www.aitoolsblocklist.com) need the dedicated register instead.
+- A topic taxonomy files AI products under technology. Teams building [AI data loss prevention](https://www.aitoolsblocklist.com/ai-data-loss-prevention.php) need the dedicated register instead.
 - Security teams can [block shadow AI](https://www.shadowaitools.com/for-it-managers.php) once the log-scanning service has listed it.
 - For allow and block decisions rather than topics, use categories from [enterprise web filtering software](https://www.webfilteringdatabase.com/pricing.php).
 
